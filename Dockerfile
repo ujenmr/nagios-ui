@@ -1,6 +1,6 @@
 FROM php:5-apache
 
-ENV NAGIOS_VERSION 4.1.1
+ENV NAGIOS_VERSION 4.2.0
 
 WORKDIR /tmp
 RUN useradd nagios && \
